@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$("#new").addClass("se");
+	$("#new").click(function(){
+		$(this).addClass("se");
+		$("#hot").removeClass("se");
+		$("#left_1").show();
+		$("#left_2").hide();
+	})
+	$("#hot").click(function(){
+		$(this).addClass("se");
+		$("#new").removeClass("se");
+		$("#left_2").show();
+		$("#left_1").hide();
+	})
+})

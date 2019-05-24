@@ -1,0 +1,117 @@
+section {
+  width: 100%; }
+
+.main_play {
+  background-color: #f7f7f7;
+  padding: 20px 0px; }
+
+.play_header {
+  border-top: 1px solid #d0d0d0;
+  text-align: center;
+  height: 133px;
+  background-color: #ffffff; }
+  .play_header h1 {
+    line-height: 100px; }
+  .play_header ul {
+    list-style: none;
+    margin: auto;
+    width: 300px; }
+    .play_header ul li {
+      width: 100px;
+      line-height: 30px;
+      cursor: pointer; }
+    .play_header ul li:hover {
+      border-bottom: 2px solid orangered;
+      color: orangered; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.main_play_1 {
+  width: 1200px;
+  margin: auto; }
+
+.main_play_2 {
+  width: 1200px;
+  margin: auto;
+  display: none; }
+
+.main_play_3 {
+  padding: 20px 0px;
+  width: 1200px;
+  margin: auto;
+  display: none; }
+
+.main_play_ul li {
+  list-style: none;
+  width: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e6eb;
+  margin-bottom: 26px; }
+
+.main_play_11 {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #ffffff; }
+  .main_play_11 h3 {
+    padding-top: 20px; }
+    .main_play_11 h3 span {
+      display: inline-block;
+      width: 5px;
+      height: 20px;
+      background-color: orangered;
+      margin-right: 20px; }
+
+.main_play_ul1 {
+  list-style: none;
+  border-bottom: 1px dashed #b4b3b3;
+  padding-bottom: 20px; }
+  .main_play_ul1 li {
+    float: left;
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    color: #b4b3b3; }
+    .main_play_ul1 li p {
+      line-height: 40px; }
+
+.main_play_ul2 {
+  list-style: none;
+  padding-bottom: 30px; }
+  .main_play_ul2 li {
+    float: left;
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    color: #b4b3b3;
+    margin-top: 20px; }
+
+.play_2 {
+  padding: 10px; }
+
+.ioc4 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(img/readMore.png) no-repeat; }
+
+.ioc7 {
+  display: inline-block;
+  width: 24px;
+  height: 10px;
+  background: url(img/more.png) no-repeat; }
+
+.ioc5 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(img/xin.png) no-repeat; }
+
+.ioc2 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(img/reply.png) no-repeat; }

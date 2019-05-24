@@ -1,0 +1,29 @@
+/* 初始化 */
+*{margin: 0px;padding: 0px;font: "微软雅黑";}
+/* 重用部分 */
+.clearFloat:after{display: block;clear:both;content:"";}
+.spaceAround{display:flex;justify-content: space-around;}
+.spaceBetween{display: flex;justify-content: space-between;}
+.se {border-bottom: 2px solid orangered;color: orangered; }
+/* 头部 */
+header{width: 100%;}
+nav{width: 1200px;margin:auto;height: 75px;}
+.nav_div1{float: left;margin-right: 60px;line-height: 75px;}
+.nav_div1>a>img{vertical-align: middle;}
+.nav_ul{width: 450px;float: left;}
+.nav_ul>li{list-style: none;width:70px;line-height: 75px;}
+nav a{text-decoration: none;color: #000000;}
+.nav_ul>li>a:hover{color:#fa553f;}
+.nav_div2{float: right;line-height: 70px;}
+.ioc1{display: inline-block;width: 54px;height: 24px;background: url(img/search.png)no-repeat;vertical-align: middle;}
+.nav_div2>span>a{padding: 8px;text-align: center;border: 2px solid #fa553f;border-radius: 5px;font-size: 14px;color: #fa553f;}
+/* 尾部 */
+footer{width: 100%;background-color: #505050;padding-top: 40px;}
+.footer{width: 1200px;margin: auto;}
+.footer_img{float: left;}
+.footer_1{width: 128px;margin-left: 20px;float: left;font-size: 12px;color: #a8a9ad;line-height: 20px;}
+.footer_1 p{margin-top: 20px;}
+.footer ul{float: left;list-style: none;margin-left: 30px;}
+.footer ul li{color: #a8a9ad;font-size: 14px;line-height: 26px;}
+.footer ul li div{float: right;width:84px;margin-left: 18px;}
+.footer ul dt{color: white;font-size: 20px;margin-bottom: 28px;}

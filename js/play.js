@@ -1,0 +1,27 @@
+$(document).ready(function(){
+	$("#new").addClass("se");
+	$("#new").click(function(){
+		$(this).addClass("se");
+		$("#hot").removeClass("se");
+		$("#cat").removeClass("se");
+		$(".main_play_1").show();
+		$(".main_play_2").hide();
+		$(".main_play_3").hide();
+	})
+	$("#hot").click(function(){
+		$(this).addClass("se");
+		$("#new").removeClass("se");
+		$("#cat").removeClass("se");
+		$(".main_play_2").show();
+		$(".main_play_1").hide();
+		$(".main_play_3").hide();
+	})
+	$("#cat").click(function(){
+		$(this).addClass("se");
+		$("#hot").removeClass("se");
+		$("#new").removeClass("se");
+		$(".main_play_3").show();
+		$(".main_play_1").hide();
+		$(".main_play_2").hide();
+	})
+})
